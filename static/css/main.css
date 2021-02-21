@@ -61,7 +61,7 @@ body {
     max-width: 640px;
     margin: 0 auto;
     padding: 0px;
-    background-image: url("RAEflag.jpg");
+    background-image: url("/static/img/RAEflag.jpg");
     background-position: center;
     background-sie: cover;
     background-color: #cccccc;
