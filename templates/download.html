@@ -22,7 +22,7 @@
                 <a href="#" class="navbar__link">Farms</a>
             </li>
             <li class="=navbar__navigation-item">
-                <a href="/download" class="navbar__link">Downloads</a>
+                <a href="#" class="navbar__link">Downloads</a>
             </li>
         </ul>
     </header>
@@ -36,36 +36,14 @@
             </p>
         </section>
         <section>
-            <form class="form__login" action="/loginsuccess" method="POST">
+            <form class="form__download" action="/download" method="POST">
                 <p class="form__input">
                     <div class="login__title">
-                        <h2>Login section not functional yet</h2>
+                        <h2>Downloads</h2>
+                        <a href="/static/files/WAO_db_downloadtest.csv" class="download__link">
+                            "<< Click to download csv file >>"</a>
                     </div>
-                    <span class="form__input__fields">
-                        <label for="login__id">User ID:</label>
-                        <input type="text" name="username" id="login__id"/>
-                        <label for="login__pw">Password:</label>
-                        <input type="text" name="username" id="login__pw"/>
-                    </span>
-                </p>
-                <span class="login__button__span">
-                    <button type="submit" class="login__submit__button">Login</button>
-                </span>
             </form>
-        </section>
-        <section>
-            <div class="chart_title_div">
-                <h2 class="chart__title">RAE Overview as at</h2>
-                <time class="asatdate" datetime="21-02-2021">21 Feb 2021</time>
-            </div>
-            <article>
-                <div class="placeholder">
-                    <h3>placeholder for RAE Chart when database online</h3>
-                </div>
-                <span class="chart_span">
-                    <img class="chart_img" src="/static/img/examplescreen.jpg" alt="RAE chart goes here"/>
-                </span>
-            </article>
         </section>
     </main>
     <footer class="footer">
