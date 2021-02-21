@@ -1,0 +1,139 @@
+html {
+    font-family: Papyrus, sans-serif;
+    color: #d1d1e0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.navbar {
+    max-width:460px;
+    margin: 0 auto;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-center;
+    color: #d1d1e0;
+    background-color: #666671;
+}
+
+.navbar__brand {
+    display: flex;
+}
+
+.header__img {
+    max-width:60px;
+    max-height: 80px;
+    margin-right: 0px
+}
+
+.navbar__navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar__navigation-item {
+    margin-left: 0px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+    font-size: 80%
+}
+
+
+.main {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url("RAEflag.jpg");
+    background-position: center;
+    background-sie: cover;
+    background-color: #cccccc;
+}
+
+.intro {
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.form__login {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #666671;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.login__title {
+    text-align: center;
+}
+
+.form__input__fields {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+
+}
+
+.login__button__span {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    margin: auto;
+}
+
+.login__submit__button {
+    border:none;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 125%
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login__submit__button:hover {
+    background-color: #666671;
+    color:#d1d1e0;
+}
+
+.chart_title_div {
+    text-align: center;
+}
+
+.chart__title {
+    display: inline;
+}
+
+.asatdate {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.placeholder {
+    text-align:center;
+}
+
+.chart_span {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: auto;
+}
